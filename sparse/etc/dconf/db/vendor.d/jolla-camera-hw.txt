@@ -1,0 +1,2 @@
+[apps/jolla-camera]
+maxVideoResolution='1920x1080'
