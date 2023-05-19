@@ -1,8 +1,8 @@
-%package -n patterns-sailfish-device-configuration-halium-mimameid
-Summary: Sailfish HW Adaptation halium-mimameid
+%package -n patterns-sailfish-device-configuration-halium-vidofnir
+Summary: Sailfish HW Adaptation halium-vidofnir
 
-Requires: patterns-sailfish-device-configuration-common-halium-mimameid
-Requires: patterns-sailfish-device-adaptation-halium-mimameid
+Requires: patterns-sailfish-device-configuration-common-halium-vidofnir
+Requires: patterns-sailfish-device-adaptation-halium-vidofnir
 
 Requires: patterns-sailfish-cellular-apps
 Requires: patterns-sailfish-applications
@@ -54,7 +54,7 @@ Requires: sailfish-devicelock-fpd
 #WLAN Suspend
 Requires: sailfish-connman-plugin-suspend
 
-%description -n patterns-sailfish-device-configuration-halium-mimameid
-Pattern with packages for halium-mimameid configurations
+%description -n patterns-sailfish-device-configuration-halium-vidofnir
+Pattern with packages for halium-vidofnir configurations
 
-%files -n patterns-sailfish-device-configuration-halium-mimameid
+%files -n patterns-sailfish-device-configuration-halium-vidofnir
