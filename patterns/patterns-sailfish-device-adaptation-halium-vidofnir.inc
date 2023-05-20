@@ -8,7 +8,7 @@ Requires: droid-config-halium-vidofnir-policy-settings
 Requires: droid-config-halium-vidofnir-preinit-plugin
 Requires: droid-config-halium-vidofnir-flashing
 Requires: droid-config-halium-vidofnir-bluez5
-Requires: droid-hal-vendor-halium-vidofnir
+Requires: droid-hal-vendor-img-halium-vidofnir
 Requires: droid-hal-version-halium-vidofnir
 
 Requires: qt5-plugin-generic-evdev
