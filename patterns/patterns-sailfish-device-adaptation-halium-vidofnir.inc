@@ -36,6 +36,8 @@ Requires: dummy_netd
 
 # NFC
 Requires: nfcd-binder-plugin
+Requires: nfcd-mce-plugin
+Requires: libgbinder-tools
 
 # Vibra
 Requires: ngfd-plugin-native-vibrator
