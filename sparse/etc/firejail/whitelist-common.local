@@ -10,6 +10,8 @@ whitelist /dev/binder
 whitelist /dev/socket/property_service
 whitelist /dev/shm
 whitelist /dev/ashmem
+whitelist /dev/mtk_cmdq
+whitelist /dev/dma_heap/mtk_mm
 
 #This is to allow loading libtlspadding
 private-etc ld.so.preload
