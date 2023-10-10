@@ -169,9 +169,10 @@ fi
 
 %pack
 
+echo "start pack"
 echo $IMG_OUT_DIR
-pwd
+echo `pwd`
 find
 mv $IMG_OUT_DIR SailfishOS-vidofnir
-
+echo "end pack"
 %end
