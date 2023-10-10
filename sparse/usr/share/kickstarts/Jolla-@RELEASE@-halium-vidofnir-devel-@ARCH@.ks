@@ -169,6 +169,9 @@ fi
 
 %pack
 
+echo $IMG_OUT_DIR
+pwd
+find
 mv $IMG_OUT_DIR SailfishOS-vidofnir
 
 %end
