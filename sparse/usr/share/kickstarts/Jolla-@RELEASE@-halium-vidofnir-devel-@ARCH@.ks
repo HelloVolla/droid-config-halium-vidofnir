@@ -174,5 +174,7 @@ echo $IMG_OUT_DIR
 echo `pwd`
 find
 mv $IMG_OUT_DIR SailfishOS-vidofnir
+echo "moved out dir"
+find
 echo "end pack"
 %end
