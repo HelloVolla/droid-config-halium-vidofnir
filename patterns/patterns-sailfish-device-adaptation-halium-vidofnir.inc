@@ -1,7 +1,7 @@
 %package -n patterns-sailfish-device-adaptation-halium-vidofnir
 Summary: Sailfish HW Adaptation halium-vidofnir
 
-#Requires: kernel-adaptation-halium-vidofnir
+Requires: kernel-adaptation-halium-vidofnir
 Requires: droid-config-halium-vidofnir-sailfish
 Requires: droid-config-halium-vidofnir-pulseaudio-settings
 Requires: droid-config-halium-vidofnir-policy-settings
