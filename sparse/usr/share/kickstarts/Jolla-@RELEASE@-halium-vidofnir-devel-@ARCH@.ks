@@ -11,7 +11,6 @@ part / --fstype="ext4" --size=8000 --label=root
 ## No suitable configuration found in /tmp/sandbox/usr/share/ssu/kickstart/bootloader
 
 repo --name=adaptation-community-vidofnir-@RELEASE@ --baseurl=http://repo.sailfishos.org/obs/nemo:/devel:/hw:/volla:/halium-vidofnir/sailfish_latest_@ARCH@/
-repo --name=adaptation-community-vidofnir-kernel-@RELEASE@ --baseurl=http://repo.sailfishos.org/obs/nemo:/devel:/hw:/volla:/halium-vidofnir/sailfish_latest_i486/
 repo --name=adaptation-community-halium12-@RELEASE@ --baseurl=http://repo.sailfishos.org/obs/nemo:/devel:/hw:/halium:/12/sailfish_latest_@ARCH@/
 repo --name=adaptation-community-common-halium-@RELEASE@ --baseurl=http://repo.sailfishos.org/obs/nemo:/devel:/hw:/common/sailfish_latest_@ARCH@/
 
