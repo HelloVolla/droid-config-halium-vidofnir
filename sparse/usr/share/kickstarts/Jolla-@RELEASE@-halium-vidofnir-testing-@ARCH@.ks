@@ -10,9 +10,9 @@ part / --fstype="ext4" --size=8000 --label=root
 
 ## No suitable configuration found in /tmp/sandbox/usr/share/ssu/kickstart/bootloader
 
-repo --name=adaptation-community-vidofnir-@RELEASE@ --baseurl=http://repo.sailfishos.org/obs/nemo:/testing:/hw:/volla:/halium-vidofnir:/@RELEASE@/sailfish_latest_@ARCH@/
-repo --name=adaptation-community-halium12-@RELEASE@ --baseurl=http://repo.sailfishos.org/obs/nemo:/testing:/hw:/halium:/12:/@RELEASE@/sailfish_latest_@ARCH@/
-repo --name=adaptation-community-common-halium-@RELEASE@ --baseurl=http://repo.sailfishos.org/obs/nemo:/testing:/hw:/common/sailfish_latest_@ARCH@/
+repo --name=adaptation-community-vidofnir-@RELEASE@ --baseurl=http://repo.sailfishos.org/obs/nemo:/testing:/hw:/volla:/halium-vidofnir:/@RELEASE@/sailfish_@RELEASE@_@ARCH@/
+repo --name=adaptation-community-halium12-@RELEASE@ --baseurl=http://repo.sailfishos.org/obs/nemo:/testing:/hw:/halium:/12:/@RELEASE@/sailfish_@RELEASE@_@ARCH@/
+repo --name=adaptation-community-common-halium-@RELEASE@ --baseurl=http://repo.sailfishos.org/obs/nemo:/testing:/hw:/common/sailfishos_@RELEASEMAJMIN@_@ARCH@/
 
 repo --name=sailfishos-chum-@RELEASEMAJMIN@ --baseurl=http://repo.sailfishos.org/obs/sailfishos:/chum/@RELEASEMAJMIN@_@ARCH@/
 repo --name=adaptation-common-@RELEASE@ --baseurl=https://releases.jolla.com/releases/@RELEASE@/jolla-hw/adaptation-common/@ARCH@/
