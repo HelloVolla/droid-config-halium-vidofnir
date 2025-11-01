@@ -1,0 +1,13 @@
+CPUCHECK_STRING="MT6789V/CD"
+
+# Because of flash-partition checks, 1 needs to be defined
+# Others can go with partition numbers
+PART_1="boot_a"
+PART_31="dtbo_a"
+PART_30="vendor_boot_a"
+
+PART_REAL_1="sdc29"
+PART_REAL_31="sdc31"
+PART_REAL_30="sdc30"
+
+PART_I="1 31 30"
