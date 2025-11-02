@@ -27,6 +27,8 @@ patterns-sailfish-device-configuration-halium-vidofnir
 %attachment
 #Copy some files out of the image for the user to flash
 /boot/boot.img
+/boot/vendor_boot.img
+/boot/dtbo.img
 /etc/hw-release
 droid-config-halium-vidofnir-out-of-image-files
 %end

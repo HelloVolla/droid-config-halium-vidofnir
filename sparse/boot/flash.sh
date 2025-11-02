@@ -37,6 +37,9 @@ fastboot flash boot_a boot.img || handle_error flash boot_a error
 #Vendor boot
 fastboot flash vendor_boot_a vendor_boot.img || handle_error flash vendor_boot_a error
 
+#DTBO
+fastboot flash dtbo_a dtbo || handle_error flash dtbo_a error
+
 #Flash super
 fastboot flash super super.img || handle_error flash super error
 
